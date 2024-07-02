@@ -1,0 +1,11 @@
+[Bb]in/
+[Oo]bj/
+[Rr]eleases/
+[Pp]ublish/
+x64/
+x86/
+.vs/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+.idea/

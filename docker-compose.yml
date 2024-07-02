@@ -1,0 +1,19 @@
+﻿services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespw
+      POSTGRES_DB: auction
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+#  auctionservice:
+#    image: auctionservice
+#    build:
+#      context: .
+#      dockerfile: src/AuctionService/Dockerfile
+      
+volumes:
+    pgdata:
