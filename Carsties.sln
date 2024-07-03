@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{615EEBC8-8238-469E-8E6A-19C96FE489E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +19,9 @@ Global
 		{242F01DD-41CA-4150-8E29-1673BF18DA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{242F01DD-41CA-4150-8E29-1673BF18DA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{242F01DD-41CA-4150-8E29-1673BF18DA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615EEBC8-8238-469E-8E6A-19C96FE489E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615EEBC8-8238-469E-8E6A-19C96FE489E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615EEBC8-8238-469E-8E6A-19C96FE489E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615EEBC8-8238-469E-8E6A-19C96FE489E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -7,8 +7,8 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["AuctionService/AuctionService.csproj", "AuctionService/"]
-RUN dotnet restore "AuctionService/AuctionService.csproj"
+COPY ["src/AuctionService/AuctionService.csproj", "AuctionService/"]
+RUN dotnet restore "src/AuctionService/AuctionService.csproj"
 COPY . .
 WORKDIR "/src/AuctionService"
 RUN dotnet build "AuctionService.csproj" -c $BUILD_CONFIGURATION -o /app/build
